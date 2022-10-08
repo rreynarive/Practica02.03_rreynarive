@@ -1,3 +1,3 @@
 nombre = input("Escriba nombre completo: ")
-print((nombre + "\n") * 3)
+print(f'{nombre.lower()}\n{nombre.upper()}\n{nombre.title()}')
 

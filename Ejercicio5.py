@@ -1,5 +1,5 @@
-text = input("ingrese una frase: ")
+frase = input("ingrese una frase: ")
 
-print(text[::-1])
+print(frase[::-1])
 
 

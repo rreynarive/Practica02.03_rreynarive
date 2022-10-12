@@ -1,6 +1,4 @@
-tel = input("ingrese su numero telefonico: ")
-
-tel2 = tel.replace("-", "").replace("+", "")
-print(tel2)
-print("El numero local es: " + tel2[2:11])
+telefono = input("Escriba su numero de telefono (+xx-xxxxxxxxx-xx): ")
+tel = telefono[4:-3]
+print("El numero es: "+ tel)
 
